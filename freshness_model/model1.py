@@ -103,7 +103,7 @@ def predict_freshness_from_frame(frame):
 
 # Real-time Camera Capture Function
 def capture_real_time_image():
-    ip_webcam_url = 'http://192.168.0.248:8080/video'  # Replace with your IP webcam URL
+    ip_webcam_url = 'http://<ur ip address>/video'  # Replace with your IP webcam URL
     cap = cv2.VideoCapture(ip_webcam_url)  # Open the IP webcam feed
 
     if not cap.isOpened():
