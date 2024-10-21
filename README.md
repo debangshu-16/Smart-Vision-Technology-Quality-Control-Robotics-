@@ -4,6 +4,10 @@ This project aims to revolutionize the quality inspection process for India's la
 ## **Project Overview**
 The system utilizes advanced Smart Vision Technology to automate quality control processes. By analyzing images of products, it ensures that the products meet predefined standards for quality, quantity, and packaging integrity. This is achieved through a combination of camera vision, OCR, and machine learning models that detect defects, identify labels, and verify product freshness.
 
+
+https://github.com/user-attachments/assets/85204c5c-db9d-46f1-aec2-7ac7e21db849
+
+
 ### Key Features:
 1. **Image Acquisition:**
   - High-resolution cameras and optimized lighting setups to capture clear images of products on conveyor belts or in inventory.
@@ -38,13 +42,20 @@ This system can be applied to the ecommerce industry for:
 - **Quality Control for Fresh Produce:** Inspecting fruits and vegetables for spoilage or defects.
 - **Inventory Management:** Automated tracking of stock in bins or on shelves.
 ---
-## How to Run the models
-### 1. Freshness model
-The Freshness Model is designed to assess the freshness of perishable products by analyzing their appearance. The model predicts the remaining shelf life based on visual cues.
-**Steps to Run:**
-  - **Install Dependencies:**
-    Install the necessary Python packages using the following command:
-```bash
-pip install -r requirements.txt
-```
+### Current Status
+The system is composed of three distinct models:
+- Freshness Model
+- OCR and Barcode Scanner
+- Box Deformity Detection Model
+These models are not yet integrated and must be run independently.
+instructions for running each model separately are given in each folder.
+You are requested to go through the folders and read the readme files to understand it better !!!
+
+### Future Work
+- **Model Integration:** We are working on integrating the three models to run simultaneously and generate a unified output.
+- **Real-Time Feedback:** The integrated system will eventually provide real-time quality assessments and feedback for automated systems.
+--
+
+# Contributing
+Feel free to contribute to any part of the project. You can work on integration or model improvements. Please follow the code guidelines and write tests for any new functionality.
 
