@@ -134,7 +134,7 @@ class ProductDetectionGUI(QMainWindow):
         self.product_data = pd.read_csv('updated_product_data.csv')
 
         # Set up camera
-        self.video_url = 'http://192.168.0.248:8080/video'
+        self.video_url = 'http://<ur ip web cam address>/video'
         self.cap = cv2.VideoCapture(self.video_url)
 
         # Create main widget and layout
