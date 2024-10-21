@@ -42,7 +42,7 @@ This system can be applied to the ecommerce industry for:
 ### 1. Freshness model
 The Freshness Model is designed to assess the freshness of perishable products by analyzing their appearance. The model predicts the remaining shelf life based on visual cues.
 **Steps to Run:**
-  - **Install Dependencies:**\n
+  - **Install Dependencies:**
 Install the necessary Python packages using the following command:
 ```bash
 pip install -r requirements.txt
