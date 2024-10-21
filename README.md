@@ -31,7 +31,7 @@ The system utilizes advanced Smart Vision Technology to automate quality control
 - ***Lighting and Environmental Factors:*** Variations in lighting conditions may impact the accuracy of image recognition.
 - ***Product Variability:*** Diverse sizes, shapes, and colors of products add complexity to the inspection process.
 
-###**Applications**
+### **Applications**
 This system can be applied to the ecommerce industry for:
 - **Product Identification:** Identifying items and verifying quantities.
 - **Packaging Inspection:** Ensuring packaging correctness and detecting tampering.
@@ -42,8 +42,9 @@ This system can be applied to the ecommerce industry for:
 ### 1. Freshness model
 The Freshness Model is designed to assess the freshness of perishable products by analyzing their appearance. The model predicts the remaining shelf life based on visual cues.
 **Steps to Run:**
-  - **Install Dependencies:**
+  - **Install Dependencies:**\n
 Install the necessary Python packages using the following command:
 ```bash
 pip install -r requirements.txt
 ```
+
