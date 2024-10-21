@@ -436,8 +436,8 @@ class MainWindow(QMainWindow):
         main_layout = QHBoxLayout(central_widget)
 
         # Create two camera widgets
-        self.camera1 = CameraWidget("http://192.168.0.248:8080/video", is_barcode_camera=True)
-        self.camera2 = CameraWidget("http://192.168.0.173:8080/video")
+        self.camera1 = CameraWidget("http://<1st camera>/video", is_barcode_camera=True)
+        self.camera2 = CameraWidget("http://<2nd camera>/video")
 
         main_layout.addWidget(self.camera1)
         main_layout.addWidget(self.camera2)
